@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './Greeting';
-import { Todo } from './Todo';
+import { Todo } from './Todo/TodoHooks';
 
 class App extends Component {
   render() {
