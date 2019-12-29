@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './Greeting';
+import { Todo } from './Todo';
 
 class App extends Component {
   render() {
@@ -9,7 +10,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           
-        <Greeting></Greeting>    
+        {/* <Greeting></Greeting>     */}
+        <Todo></Todo>
         </header>
         
       </div>
